@@ -3,7 +3,7 @@
 
 `bayes` takes a document (piece of text), and tells you what category that document belongs to.
 
-##What can I use this for?
+## What can I use this for?
 
 You can use this for categorizing any text content into any arbitrary set of **categories**. For example:
 
@@ -11,13 +11,13 @@ You can use this for categorizing any text content into any arbitrary set of **c
 - is a news article about **technology**, **politics**, or **sports** ?
 - is a piece of text expressing **positive** emotions, or **negative** emotions?
 
-##Installing
+## Installing
 
 ```
 npm install bayes
 ```
 
-##Usage
+## Usage
 
 ```javascript
 var bayes = require('bayes')
@@ -46,7 +46,7 @@ var revivedClassifier = bayes.fromJson(stateJson)
 
 ```
 
-##API
+## API
 
 ###`var classifier = bayes([options])`
 
